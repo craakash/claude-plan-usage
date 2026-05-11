@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "claude-plan-usage"
-version = "0.1.0"
+version = "0.1.1"
 description = "Check your Claude plan usage limits from the terminal — no more switching to the desktop app"
 requires-python = ">=3.9"
 license = {text = "MIT"}
@@ -21,8 +21,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/craakash/claude-usage"
-Issues = "https://github.com/craakash/claude-usage/issues"
+Homepage = "https://github.com/craakash/claude-plan-usage"
+Issues = "https://github.com/craakash/claude-plan-usage/issues"
 
 [project.scripts]
 claude-plan-usage = "claude_usage.cli:main"
